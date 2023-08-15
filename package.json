@@ -57,10 +57,10 @@
     "cy:run": "cypress run"
   },
   "peerDependencies": {
-    "next": "^10.0.0 || ^11.0.0 || ^12.0.0",
-    "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
-    "react-redux": "^7.1.0",
-    "redux": "^3.6.0 || ^4.0.0"
+    "next": "^13",
+    "react": "^18",
+    "react-redux": "^8",
+    "redux": "^4"
   },
   "devDependencies": {
     "@cypress/code-coverage": "^3.8.3",
