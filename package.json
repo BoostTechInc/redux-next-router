@@ -13,7 +13,7 @@
     "react-router-redux"
   ],
   "main": "index.js",
-  "exports":{
+  "exports": {
     "node": {
       "module": "./es/index.js",
       "require": "./index.js"
@@ -57,10 +57,10 @@
     "cy:run": "cypress run"
   },
   "peerDependencies": {
-    "next": "^13",
-    "react": "^18",
-    "react-redux": "^8",
-    "redux": "^4"
+    "next": "^13.4.9",
+    "react": "^18.2.0",
+    "react-redux": "^8.1.1",
+    "redux": "^4.2.1"
   },
   "devDependencies": {
     "@cypress/code-coverage": "^3.8.3",
@@ -72,15 +72,15 @@
     "@typescript-eslint/eslint-plugin": "^4.7.0",
     "@typescript-eslint/parser": "^4.7.0",
     "cross-env": "^7.0.2",
-    "cypress": "^5.6.0",
+    "cypress": "^4.2.0",
     "eslint": "^7.13.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.2.0",
     "istanbul-lib-coverage": "^3.0.0",
     "istanbul-lib-instrument": "^4.0.3",
-    "next": "^12.0.0",
-    "next-redux-wrapper": "^6.0.2",
+    "next": "^13.4.9",
+    "next-redux-wrapper": "^8.1.0",
     "nyc": "^15.1.0",
     "prop-types": "^15.7.2",
     "react": "^18.0.0",
@@ -112,5 +112,8 @@
   },
   "bugs": {
     "url": "https://github.com/danielr18/connected-next-router/issues"
+  },
+  "dependencies": {
+    "styled-jsx": "^5.1.2"
   }
 }
